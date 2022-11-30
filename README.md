@@ -2,7 +2,7 @@
 
 ## Architecture
 
-[![crackstation.png](https://i.postimg.cc/K8b8qP1H/crackstation.png)](https://postimg.cc/7fB4bTM3)
+[![crackstation.png](https://i.postimg.cc/sX3T200R/crackstation.png)](https://postimg.cc/06HYWZst)
 
 ### Current stable version: `1.0.0`
 
