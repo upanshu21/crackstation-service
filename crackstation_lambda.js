@@ -44,10 +44,10 @@ exports.handler = async (event, context) => {
          body = JSON.stringify("Error: Invalid API route")
       }
       else {
-        let bod = {}
+        let decrypted_password = {}
         body = JSON.parse(body)
-        bod[body.Item.hash] = body.Item.value
-        body = JSON.stringify(bod)
+        decrypted_password[body.Item.hash] = body.Item.value
+        body = JSON.stringify(decrypted_password)
       }
 
   return {
