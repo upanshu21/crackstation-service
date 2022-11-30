@@ -2,7 +2,7 @@
 
 ## Architecture
 
-[![Blank-diagram.png](https://i.postimg.cc/qvntByXw/Blank-diagram.png)](https://postimg.cc/TKd2Cys5)
+[![crackstation.png](https://i.postimg.cc/K8b8qP1H/crackstation.png)](https://postimg.cc/7fB4bTM3)
 
 ### Current stable version: `1.0.0`
 
