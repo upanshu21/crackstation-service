@@ -43,6 +43,12 @@ The response will look like this, given the hash is decrypted:
 
 We want to make everything easy for you. So the swagger doc for this API is already provided.
 
+Here is the URL for Swagger hub if you want to try it right away!
+
+```
+https://app.swaggerhub.com/apis/CHAUDHUP_1/crack-station/1.0.0
+```
+
 ## Author 
 
 Upanshu Chaudhary
