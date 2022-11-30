@@ -7,7 +7,11 @@ exports.handler = async (event, context) => {
   let body;
   let statusCode = 200;
   const headers = {
-	"Content-Type": "application/json"
+	"Content-Type": "application/json",
+	 'Content-Type': 'application/json',
+   "Access-Control-Allow-Headers" : "Content-Type",
+   "Access-Control-Allow-Origin": "*",
+   "Access-Control-Allow-Methods": "GET"
   };
 
   try {
@@ -34,15 +38,16 @@ exports.handler = async (event, context) => {
   
     if(body === '{}') {
           statusCode = 404
-          body = JSON.stringify("Decryption failed: value does not exist 
-in lookup table")
+          body = JSON.stringify("Decryption failed: value does not exist in lookup table")
       } else if(body === JSON.stringify("Unsupported route")) {
          statusCode = 400;
          body = JSON.stringify("Error: Invalid API route")
       }
       else {
+        let bod = {}
         body = JSON.parse(body)
-        body = JSON.stringify(body.Item.value)
+        bod[body.Item.hash] = body.Item.value
+        body = JSON.stringify(bod)
       }
 
   return {
@@ -51,4 +56,3 @@ in lookup table")
 	headers
   };
 };
-
