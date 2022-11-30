@@ -31,6 +31,14 @@ Example:
 https://5xduexoja5.execute-api.us-east-1.amazonaws.com/password/2d86c2a659e364e9abba49ea6ffcd53dd5559f05
 ```
 
+The response will look like this, given the hash is decrypted:
+
+```
+{
+    "2d86c2a659e364e9abba49ea6ffcd53dd5559f05": "???"
+}
+```
+
 ## Swagger Integration
 
 We want to make everything easy for you. So the swagger doc for this API is already provided.

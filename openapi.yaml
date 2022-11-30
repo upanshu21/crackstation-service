@@ -31,7 +31,7 @@ paths:
             application/json:
               schema:
                 type: object
-                example: {"45345345345": "c"}
+                example: {"84a516841ba77a5b4648de2cd0dfcb30ea46dbb4": "c"}
         '400':
           description: Invalid request
           content:
